@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "utils.h": "c",
+        "char.h": "c",
+        "string_view": "c"
+    }
+}
