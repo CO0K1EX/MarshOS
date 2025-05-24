@@ -55,11 +55,11 @@ void itoa(int num, char *number)
 int strcmp(const char* str1, const char* str2) {
     int i = 0;
 
-    // Сравниваем символы по очереди
+    // We compare the characters one at a time
     while (str1[i] && str1[i] == str2[i]) {
         i++;
     }
 
-    // Возвращаем разницу ASCII значений первых несовпадающих символов
+    // We return the difference in the ASCII values of the first mismatched characters.
     return str1[i] - str2[i];
 }
