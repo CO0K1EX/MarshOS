@@ -10,7 +10,7 @@ gcc -m32 -Iinclude -c source/calculator.c -o build/calculator.o -std=gnu99 -ffre
 #linking the kernel with kernel.o and boot.o files
 ld -m elf_i386 -T config/linker.ld build/kernel.o build/char.o build/utils.o build/calculator.o build/boot.o -o kernel.bin -nostdlib
 
-#check MyOS.bin file is x86 multiboot file or not
+#check MarshOS.bin file is x86 multiboot file or not
 grub-file --is-x86-multiboot kernel.bin
 
 #building the iso file
