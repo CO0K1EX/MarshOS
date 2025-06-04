@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "utils.h": "c",
+        "char.h": "c",
+        "string_view": "c",
+        "types.h": "c",
+        "kernel.h": "c",
+        "calculator.h": "c",
+        "console.h": "c",
+        "keyboard.h": "c"
+    }
+}
